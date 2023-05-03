@@ -15,7 +15,6 @@ li{
 	margin-left: 30px
 }
 
-/* Header/Blog Title */
 .header {
   padding: 45px;
   text-align: center;
@@ -27,13 +26,12 @@ li{
   COLOR: #ccba78
 }
 
-/* Style the top navigation bar */
 .topnav {
   overflow: hidden;
   background-color: #000000;
 }
 
-/* Style the topnav links */
+
 .topnav a {
   float: right;
   display: block;
@@ -45,14 +43,12 @@ li{
   color: #CCBA78;
 }
 
-/* Create columns */
-/* Left */
 .leftcolumn {   
   float: left;
   width: 25%;
 }
 
-/* Right */
+
 .rightcolumn {
   float: left;
   width: 75%;
@@ -60,7 +56,7 @@ li{
   padding-left: 20px;
 }
 
-/* images */
+
 .image {
   width: 90%;
   height: 90%;
@@ -70,21 +66,20 @@ li{
 	height: 50%;
 }
 
-/* Add a card effect for articles */
+
 .card {
   background-color: white;
   padding: 20px;
   margin-top: 20px;
 }
 
-/* Footer */
+
 .footer {
   padding: 5px;
   text-align: center;
   background: #004225;
 }
 
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
   .leftcolumn, .rightcolumn {   
     width: 100%;
@@ -92,7 +87,6 @@ li{
   }
 }
 
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
 @media screen and (max-width: 400px) {
   .topnav a {
     float: none;
@@ -113,13 +107,11 @@ li{
   padding: 15px;
 }
 
-/* Change color on hover */
 .topnav a:hover {
   background-color: #004225;
   color: black;
 }
 
-/* Clear floats after the columns */
 .row::after {
   content: "";
   display: table;
